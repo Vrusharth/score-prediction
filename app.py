@@ -3,7 +3,7 @@ import sklearn
 import pandas as pd
 import pickle
 pipe = pickle.load(open('pipe.pkl','rb'))
-st.title('Poonam's DWM Project')
+st.title("Poonam's DWM Project")
 teams = sorted(['Sunrisers Hyderabad',
  'Mumbai Indians',
  'Royal Challengers Bangalore',
